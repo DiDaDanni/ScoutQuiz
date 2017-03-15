@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/question_one"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_one"
+        android:textSize="24sp"
+        style="@style/BlueText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BlueText"
+        android:text="@string/question1"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp" />
+
+    <RadioGroup
+        android:id="@+id/question1_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question1_answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/quest1_ans1"
+            style="@style/BlueText"
+            android:textSize="20sp"
+            android:onClick="onRadioButtonOneClick"/>
+        <RadioButton
+            android:id="@+id/question1_answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/quest1_ans2"
+            style="@style/BlueText"
+            android:textSize="20sp"
+            android:onClick="onRadioButtonOneClick"/>
+        <RadioButton
+            android:id="@+id/question1_answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/quest1_ans3"
+            style="@style/BlueText"
+            android:textSize="20sp"
+            android:onClick="onRadioButtonOneClick"/>
+    </RadioGroup>
+
+
+
+</LinearLayout>

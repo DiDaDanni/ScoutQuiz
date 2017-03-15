@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:id="@+id/question_four">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_four"
+        android:textSize="24sp"
+        style="@style/BlueText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BlueText"
+        android:text="@string/question4"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp">
+
+        <LinearLayout
+            android:id="@+id/quest4_pics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="200dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/both"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/quest4_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+            <CheckBox
+                android:id="@+id/quest4_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quest4_ans1"
+                style="@style/BlueText"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:onClick="onCheckboxClick"/>
+            <CheckBox
+                android:id="@+id/quest4_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quest4_ans2"
+                style="@style/BlueText"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:onClick="onCheckboxClick" />
+            <CheckBox
+                android:id="@+id/quest4_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quest4_ans3"
+                style="@style/BlueText"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:onClick="onCheckboxClick"/>
+            <CheckBox
+                android:id="@+id/quest4_answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quest4_ans4"
+                style="@style/BlueText"
+                android:textSize="18sp"
+                android:onClick="onCheckboxClick"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

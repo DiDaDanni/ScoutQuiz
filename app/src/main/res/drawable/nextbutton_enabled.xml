@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape >
+            <solid android:color="@color/enabledButton"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item> <!-- focused -->
+    <item >
+        <shape >
+            <solid android:color="@color/disabledButton"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item> <!-- default -->
+</selector>

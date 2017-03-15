@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:id="@+id/question_five">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_five"
+        android:textSize="24sp"
+        style="@style/BlueText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BlueText"
+        android:text="@string/question5"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp">
+
+
+        <RadioGroup
+            android:id="@+id/question5_radioGroup"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question5_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/quest5_ans1"
+                style="@style/BlueText"
+                android:textSize="20sp"
+                android:onClick="onRadioButtonFiveClick"/>
+            <RadioButton
+                android:id="@+id/question5_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/quest5_ans2"
+                style="@style/BlueText"
+                android:textSize="20sp"
+                android:onClick="onRadioButtonFiveClick"/>
+            <RadioButton
+                android:id="@+id/question5_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/quest5_ans3"
+                style="@style/BlueText"
+                android:textSize="20sp"
+                android:onClick="onRadioButtonFiveClick"/>
+            <RadioButton
+                android:id="@+id/question5_answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/quest5_ans4"
+                style="@style/BlueText"
+                android:textSize="20sp"
+                android:onClick="onRadioButtonFiveClick"/>
+        </RadioGroup>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/gruss"/>
+    </LinearLayout>
+
+
+</LinearLayout>

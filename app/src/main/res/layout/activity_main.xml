@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.scoutquiz.MainActivity"
+    android:id="@+id/activity_main"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/start_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_description"
+        android:textSize="24sp"
+        style="@style/BlueText"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_btn"
+        android:layout_below="@id/start_view"
+        style="@style/BlueText"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:onClick="onStartButtonClick"/>
+
+
+</RelativeLayout>
+

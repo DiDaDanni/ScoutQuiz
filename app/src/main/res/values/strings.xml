@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Scout Quiz</string>
+    <string name="app_description">This is an app for testing your knowledge of scouting.</string>
+    <string name="start_btn">Let\'s go!</string>
+    <string name="next_btn">Next</string>
+    <string name="submit_btn">Submit</string>
+    
+    <string name="question_one">Question 1:</string>
+    <string name="question1">In which year the first scout camp took place?</string>
+    <string name="quest1_ans1">1855</string>
+    <string name="quest1_ans2">1907</string>
+    <string name="quest1_ans3">1926</string>
+
+    <string name="question_two">Question 2:</string>
+    <string name="question2">On which island was the first scout camp?</string>
+    <string name="quest2_text">Enter your answer here</string>
+    <string name="quest2_answer">brownseaisland</string>
+
+    <string name="question_three">Question 3:</string>
+    <string name="question3">Who is the founder of the scout movement?</string>
+
+    <string name="question_four">Question 4:</string>
+    <string name="question4">What are the two symbols for?</string>
+    <string name="quest4_ans1">WOSM - World Organization of the Scout Movement</string>
+    <string name="quest4_ans2">WOBS - World Organization of Boy Scouts</string>
+    <string name="quest4_ans3">WAGS - World Association of Girl Scouts</string>
+    <string name="quest4_ans4">WAGGGS - World Association of Girl Guides and Girl Scouts</string>
+
+    <string name="question_five">Question 5:</string>
+    <string name="question5">What is the worldwide known salutation?</string>
+    <string name="quest5_ans1">Be cool!</string>
+    <string name="quest5_ans2">Be kind!</string>
+    <string name="quest5_ans3">Be prepared!</string>
+    <string name="quest5_ans4">Be helpful!</string>
+
+    <string name="wrong_answer">Wrong</string>
+    <string name="wrong_answer1_text">The right answer is <b>1907</b>.</string>
+    <string name="wrong_answer2_text">The right answer is Brownsea Island.</string>
+    <string name="wrong_answer3_text">The right picture is the man in the upper left corner.
+        His name is Robert Stephenson Smyth Baden Powell.</string>
+    <string name="wrong_answer4_text">The right answers are WOSM and WAGGGS.</string>
+    <string name="wrong_answer5_text">The right answer is Be prepared.</string>
+    <string name="right_answer">Right</string>
+    <string name="right_text">Good job!</string>
+    <string name="right_answer_3_text">Yes you\'re right. His name is Robert Stephenson Smyth Baden Powell.</string>
+
+    <string name="well_done">"Well Done!"</string>
+    <string name="well_done_text">"Just do the quiz one more time, and you\'ll be a real scout."</string>
+    <string name="congrat">"Congratulations!"</string>
+    <string name="congrat_text">"Know you are a real scout."</string>
+</resources>
